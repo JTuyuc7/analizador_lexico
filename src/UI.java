@@ -63,6 +63,7 @@ public class UI {
         int opt = fileChoose.showOpenDialog(frame);
         if (opt == JFileChooser.APPROVE_OPTION) {
             selectedFile = fileChoose.getSelectedFile();
+            System.out.println(selectedFile + "nombre del archivo?");
             outputArea.setText("");
             procesarArchivo(selectedFile);
         }
