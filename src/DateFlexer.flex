@@ -53,7 +53,7 @@ private int obtenerMesDesdeAbreviatura(String mesTexto) {
 
 DAY        = (0?[1-9]|[12][0-9]|3[01])
 MONTH_NUM  = (0[1-9]|1[012])
-YEAR       = [0-9]{4}
+YEAR       = [0-9]{2,4}
 
 MONTH_ABBR = ([Jj][Aa][Nn]|[Ff][Ee][Bb]|[Mm][Aa][Rr]|[Aa][Pp][Rr]|[Mm][Aa][Yy]|[Jj][Uu][Nn]|[Jj][Uu][Ll]|[Aa][Uu][Gg]|[Ss][Ee][Pp]|[Oo][Cc][Tt]|[Nn][Oo][Vv]|[Dd][Ee][Cc])
 
